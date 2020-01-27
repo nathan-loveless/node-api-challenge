@@ -40,13 +40,24 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+I never knew that express was the way routing happened.
+I also did not know that you could build static HTML like files with Express
+
 - [ ] Describe Middleware?
+
+It is an array of funcctions that get executed in order they are introduced to Express and use the Next() function to procced to the next function until processing is done.
 
 - [ ] Describe a Resource?
 
+Resourcces are the objeccts that the client is requesting from the backend.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+It can return status codes such as (200- ok) (500- server error) or (404- not found) to help the client know what is going on.
+
 - [ ] How can we partition our application into sub-applications?
+
+we can use routers that allow us the modularity to break our backend into different multiple routes.
 
 ## Minimum Viable Product
 
